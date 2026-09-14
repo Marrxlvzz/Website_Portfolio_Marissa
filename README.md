@@ -123,22 +123,6 @@ Website menggunakan pendekatan HTML, CSS, dan JavaScript tanpa
 framework frontend besar, dengan konten portofolio yang dikelola
 melalui JavaScript.
 
-Struktur Proyek
-
-Website_Portfolio_Marissa/
-├── index.html
-├── style.css
-├── script.js
-├── gambar/
-│   ├── logo-me.png
-│   ├── Screenshot 2026-09-12 215002.png
-│   ├── Screenshot 2026-09-12 215110.png
-│   ├── Screenshot 2026-09-12 215157.png
-│   └── ...
-├── Geprek Momo Application.pdf
-└── README.md
-
-Nama dan isi file aset dapat berkembang seiring pembaruan portofolio.
 
 Cara Menjalankan
 
