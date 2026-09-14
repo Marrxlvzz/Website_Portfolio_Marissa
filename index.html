@@ -1,0 +1,871 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0D0B14" />
+    <title>Marissa Elisabeth Ellin | Portofolio Mahasiswi Sistem dan Teknologi Informasi</title>
+    <meta
+      name="description"
+      content="Portofolio profesional, kreatif, dan arsip pembelajaran terbuka Marissa Elisabeth Ellin, mahasiswi Sistem dan Teknologi Informasi. Eksplorasi AI, pemrograman, antarmuka web, kreativitas visual, dan komunikasi."
+    />
+    <meta property="og:title" content="Marissa Elisabeth Ellin | Portofolio Mahasiswi Sistem dan Teknologi Informasi" />
+    <meta
+      property="og:description"
+      content="Arsip kurasi karya, sertifikasi terverifikasi, kepanitiaan kampus, dan refleksi pembelajaran Marissa Elisabeth Ellin — Mahasiswi Sistem dan Teknologi Informasi."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Newsreader:ital,opsz,wght@0,6..72,300..800;1,6..72,300..800&family=Plus+Jakarta+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+  </head>
+  <body class="bg-[#0D0B14] text-[#D4CBE5] antialiased selection:bg-[#A855F7] selection:text-white">
+    <!-- Top Announcement Bar -->
+    <div class="bg-[#120E1C] text-[#A293BE] text-xs py-2 px-4 border-b border-[#2B2144]">
+      <div class="max-w-7xl mx-auto flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <span id="hero-status-pill" class="text-[11px] md:text-xs font-medium tracking-wide text-[#D4CBE5]">
+            🟢 Terbuka untuk diskusi proyek & kolaborasi akademik
+          </span>
+        </div>
+        <div class="hidden sm:flex items-center gap-2 text-[11px] font-mono text-[#8E7EA8]">
+          <span>Arsip Mahasiswa Terbuka</span>
+          <span class="text-[#3B2D5C]">•</span>
+          <span>2026</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Navigation Bar -->
+    <header class="sticky top-0 z-40 bg-[#0D0B14]/90 backdrop-blur-md border-b border-[#2B2144]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-18 flex items-center justify-between gap-3">
+        <!-- Brand Signature Monogram -->
+        <a href="#" class="flex items-center gap-2.5 sm:gap-3 group shrink-0">
+          <div class="shrink-0 flex items-center justify-center" style="width:52px;height:42px;overflow:hidden;">
+            <img
+              src="gambar/logo-me-transparent.png"
+              alt="Logo Marissa Elisabeth Ellin"
+              class="object-contain drop-shadow-[0_0_10px_rgba(192,132,252,0.18)] transition-transform duration-300 group-hover:scale-[1.03]" style="width:52px;height:42px;max-width:52px;max-height:42px;"
+            />
+          </div>
+          <div>
+            <span class="font-serif-editorial text-base sm:text-lg font-bold text-white block leading-tight tracking-tight group-hover:text-[#E9D5FF] transition-colors">
+              Marissa Elisabeth Ellin
+            </span>
+            <span class="text-[11px] text-[#8E7EA8] hidden md:block tracking-wide font-normal">
+              Sistem dan Teknologi Informasi
+            </span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links (Capsule / Island Nav) -->
+        <nav class="hidden lg:flex items-center gap-0.5 bg-[#140F22]/90 border border-[#2B2144] rounded-full p-1 shadow-sm backdrop-blur-md">
+          <a href="#about" class="desktop-nav-link px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all" data-i18n="nav.about">Tentang</a>
+          <a href="#projects" class="desktop-nav-link px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all" data-i18n="nav.projects">Proyek</a>
+          <a href="#skills" class="desktop-nav-link px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all" data-i18n="nav.skills">Keahlian</a>
+          <a href="#certifications" class="desktop-nav-link px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all" data-i18n="nav.certifications">Sertifikasi</a>
+          <a href="#experience" class="desktop-nav-link px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all" data-i18n="nav.experience">Pengalaman</a>
+
+          <!-- Dropdown for secondary sections: Perjalanan, Fokus Belajar, Refleksi -->
+          <div class="relative group/dropdown">
+            <button
+              type="button"
+              class="desktop-nav-dropdown-btn flex items-center gap-1 px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all"
+            >
+              <span data-i18n="nav.more">Lainnya</span>
+              <svg class="w-3 h-3 transition-transform duration-200 group-hover/dropdown:rotate-180 opacity-70" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div class="absolute top-full left-1/2 -translate-x-1/2 mt-2 w-44 py-1.5 bg-[#140F22] border border-[#2B2144] rounded-xl shadow-2xl opacity-0 invisible group-hover/dropdown:opacity-100 group-hover/dropdown:visible transition-all duration-200 z-50">
+              <a href="#journey" class="desktop-nav-link block px-3.5 py-2 text-xs text-[#C5B9DE] hover:text-white hover:bg-[#201736] transition-colors rounded-lg mx-1" data-i18n="nav.journey">Perjalanan</a>
+              <a href="#learning" class="desktop-nav-link block px-3.5 py-2 text-xs text-[#C5B9DE] hover:text-white hover:bg-[#201736] transition-colors rounded-lg mx-1" data-i18n="nav.learning">Fokus Belajar</a>
+              <a href="#reflections" class="desktop-nav-link block px-3.5 py-2 text-xs text-[#C5B9DE] hover:text-white hover:bg-[#201736] transition-colors rounded-lg mx-1" data-i18n="nav.reflections">Refleksi</a>
+            </div>
+          </div>
+
+          <a href="#contact" class="desktop-nav-link px-3 py-1.5 rounded-full text-xs font-medium text-[#A293BE] hover:text-white hover:bg-[#201736] transition-all" data-i18n="nav.contact">Kontak</a>
+        </nav>
+
+        <!-- Right Side Nav Actions: Compact Language Switcher & WhatsApp CTA -->
+        <div class="flex items-center gap-2 sm:gap-2.5 shrink-0">
+          <!-- Sleek Compact Language Switcher -->
+          <div
+            class="inline-flex items-center p-0.5 bg-[#140F22] border border-[#2B2144] rounded-lg text-[11px] font-mono shadow-xs"
+            role="group"
+            aria-label="Pilihan Bahasa / Language Selection"
+          >
+            <button
+              class="btn-lang-id lang-toggle-btn px-2.5 py-1 text-[11px] font-semibold active"
+              title="Bahasa Indonesia"
+            >
+              ID
+            </button>
+            <button
+              class="btn-lang-en lang-toggle-btn px-2.5 py-1 text-[11px] font-semibold"
+              title="English"
+            >
+              EN
+            </button>
+          </div>
+
+          <!-- WhatsApp Quick Action Button -->
+          <a
+            id="nav-whatsapp-btn"
+            href="https://wa.me/6281349772107"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-semibold bg-[#7E22CE] hover:bg-[#9333EA] text-white rounded-lg transition-all shadow-xs border border-[#A855F7]/30"
+          >
+            <svg class="w-3.5 h-3.5 fill-current text-green-300" viewBox="0 0 24 24">
+              <path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946.003-6.556 5.338-11.891 11.893-11.891 3.181.001 6.167 1.24 8.413 3.488 2.245 2.248 3.481 5.236 3.48 8.414-.003 6.557-5.338 11.892-11.893 11.892-1.99-.001-3.951-.5-5.688-1.448l-6.305 1.654zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884-.001 2.225.651 3.891 1.746 5.634l-.999 3.648 3.742-.981z"/>
+            </svg>
+            <span data-i18n="nav.ctaWhatsApp">WhatsApp</span>
+          </a>
+
+          <!-- Mobile Hamburger Toggle -->
+          <button
+            id="mobile-menu-btn"
+            class="lg:hidden p-2 text-[#A293BE] hover:text-white hover:bg-[#181326] rounded-lg border border-[#2B2144] transition-colors"
+            aria-label="Buka Menu Navigasi"
+          >
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Mobile Slide-out Drawer Menu -->
+    <div id="mobile-backdrop" class="fixed inset-0 bg-black/70 backdrop-blur-xs z-50 hidden"></div>
+    <div
+      id="mobile-drawer"
+      class="fixed top-0 right-0 w-80 max-w-[85vw] h-full bg-[#120E1C] border-l border-[#2B2144] z-50 p-6 flex flex-col justify-between transform translate-x-full transition-transform duration-300 ease-in-out shadow-2xl overflow-y-auto"
+    >
+      <div>
+        <div class="flex items-center justify-between pb-4 border-b border-[#2B2144]">
+          <div class="flex items-center gap-2.5">
+            <div class="shrink-0 flex items-center justify-center" style="width:46px;height:36px;overflow:hidden;">
+              <img
+                src="gambar/logo-me.png"
+                alt="Logo Marissa Elisabeth Ellin"
+                class="object-contain" style="width:46px;height:36px;max-width:46px;max-height:36px;"
+              />
+            </div>
+            <div>
+              <span class="font-serif-editorial font-bold text-sm text-white block">Marissa Elisabeth</span>
+              <span class="text-[10px] text-[#8E7EA8] block font-mono">Arsip Mahasiswa</span>
+            </div>
+          </div>
+          <button id="mobile-menu-close-btn" class="p-2 text-[#A293BE] hover:text-white rounded-lg hover:bg-[#181326] transition-colors">
+            ✕
+          </button>
+        </div>
+
+        <div class="mt-5 space-y-4">
+          <div>
+            <span class="text-[10px] font-mono uppercase tracking-wider text-[#8E7EA8] block mb-1.5 px-2">Menu Utama</span>
+            <nav class="flex flex-col gap-1 text-xs font-semibold text-[#D4CBE5]">
+              <a href="#about" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.about">Tentang <span>→</span></a>
+              <a href="#projects" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.projects">Proyek <span>→</span></a>
+              <a href="#skills" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.skills">Keahlian <span>→</span></a>
+              <a href="#certifications" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.certifications">Sertifikasi <span>→</span></a>
+              <a href="#experience" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.experience">Pengalaman <span>→</span></a>
+            </nav>
+          </div>
+
+          <div class="pt-3 border-t border-[#231A38]">
+            <span class="text-[10px] font-mono uppercase tracking-wider text-[#8E7EA8] block mb-1.5 px-2">Eksplorasi & Catatan</span>
+            <nav class="flex flex-col gap-1 text-xs font-semibold text-[#D4CBE5]">
+              <a href="#journey" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.journey">Perjalanan <span>→</span></a>
+              <a href="#learning" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.learning">Fokus Belajar <span>→</span></a>
+              <a href="#reflections" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.reflections">Refleksi <span>→</span></a>
+              <a href="#contact" class="mobile-nav-link px-3 py-2 rounded-lg hover:bg-[#181326] hover:text-[#C084FC] transition-colors flex items-center justify-between" data-i18n="nav.contact">Kontak <span>→</span></a>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="pt-5 border-t border-[#2B2144] space-y-3">
+        <!-- WhatsApp CTA in Mobile Drawer -->
+        <a
+          href="https://wa.me/6281349772107"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="flex items-center justify-center gap-2 w-full py-2.5 px-4 text-xs font-bold bg-[#7E22CE] hover:bg-[#9333EA] text-white rounded-xl transition-all shadow-md"
+        >
+          <span>Chat WhatsApp</span>
+          <span>↗</span>
+        </a>
+
+        <!-- Language Switcher in Mobile Drawer -->
+        <div class="space-y-1.5">
+          <span class="text-[10px] font-mono uppercase tracking-wider text-[#8E7EA8] block">Bahasa / Language</span>
+          <div class="inline-flex p-0.5 bg-[#140F22] border border-[#2B2144] rounded-lg w-full text-xs font-mono">
+            <button class="btn-lang-id lang-toggle-btn flex-1 py-1.5 text-xs font-semibold rounded-md active">
+              ID (Bahasa)
+            </button>
+            <button class="btn-lang-en lang-toggle-btn flex-1 py-1.5 text-xs font-semibold rounded-md">
+              EN (English)
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section -->
+      <section class="relative pt-12 pb-20 md:pt-20 md:pb-28 border-b border-[#2B2144] overflow-hidden bg-purple-dots">
+        <!-- Atmospheric Velvet Purple Glow -->
+        <div class="absolute top-1/4 left-1/2 -translate-x-1/2 w-[32rem] h-[32rem] bg-[#A855F7]/10 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+            <!-- Left Narrative Column -->
+            <div class="lg:col-span-7 space-y-6">
+              <div class="flex flex-wrap items-center gap-3">
+                <span id="hero-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30">
+                  Mahasiswi Sistem dan Teknologi Informasi
+                </span>
+                <span id="hero-verified-tag" class="text-xs font-semibold text-[#34D399] px-3 py-1 bg-[#181326] rounded-full border border-[#10B981]/30">
+                  Arsip & Portofolio Mahasiswa Terbuka
+                </span>
+              </div>
+
+              <!-- Main Editorial Display Headline -->
+              <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-serif-editorial font-bold text-white leading-[1.12]">
+                <span id="hero-h1-1" class="block">Mempelajari Teknologi.</span>
+                <span id="hero-h1-2" class="block text-[#C084FC] italic font-normal">Mewujudkan Karya.</span>
+                <span id="hero-h1-3" class="block">Tumbuh di Setiap Langkah.</span>
+              </h1>
+
+              <p id="hero-desc" class="text-sm md:text-base text-[#A293BE] max-w-2xl leading-relaxed">
+                Halo, saya Marissa Elisabeth Ellin — mahasiswi Sistem dan Teknologi Informasi yang antusias mengeksplorasi kecerdasan buatan, pemrograman, antarmuka web, kreativitas visual, dan komunikasi sembari aktif menghasilkan karya nyata.
+              </p>
+
+              <!-- Three Quick Human Philosophy Pillars -->
+              <div id="hero-quick-pillars" class="grid grid-cols-1 sm:grid-cols-3 gap-3 pt-2">
+                <!-- Populated dynamically via main.js -->
+              </div>
+
+              <!-- CTAs -->
+              <div class="pt-4 flex flex-wrap items-center gap-4">
+                <a
+                  id="hero-cta-projects"
+                  href="#projects"
+                  class="px-6 py-3.5 text-xs font-bold bg-gradient-to-r from-[#9333EA] to-[#7E22CE] hover:from-[#A855F7] hover:to-[#9333EA] text-white rounded-xl transition-all shadow-md shadow-purple-950/40 flex items-center gap-2"
+                >
+                  <span>Lihat Proyek & Portofolio</span>
+                  <span>↓</span>
+                </a>
+                <a
+                  id="hero-cta-contact"
+                  href="#contact"
+                  class="px-6 py-3.5 text-xs font-bold bg-[#181326] hover:bg-[#211B34] text-white border border-[#2B2144] hover:border-[#C084FC]/60 rounded-xl transition-all"
+                >
+                  Terhubung dengan Saya
+                </a>
+              </div>
+            </div>
+
+            <!-- Right Column: Curated Portrait Card with Washi Tape Mount -->
+            <div class="lg:col-span-5 flex justify-center lg:justify-end">
+              <div class="tape-accent relative w-full max-w-sm">
+                <div class="paper-card p-4 rounded-3xl bg-[#181326] border border-[#2B2144]">
+                  <!-- Photograph Frame -->
+                  <div class="overflow-hidden rounded-2xl aspect-4/5 bg-[#100D1B] relative border border-[#2B2144]">
+                    <img
+                      src="gambar/foto-formal.png"
+                      alt="Marissa Elisabeth Ellin"
+                      class="w-full h-full object-cover object-center transform hover:scale-102 transition-transform duration-500"
+                      loading="eager"
+                    />
+                    <div class="absolute bottom-3 right-3 px-3 py-1 rounded-full bg-[#0D0B14]/85 backdrop-blur-xs text-[#C084FC] text-[10px] font-mono border border-[#2B2144]">
+                      2026 Archive
+                    </div>
+                  </div>
+
+                  <!-- Archival Card Caption -->
+                  <div class="pt-4 pb-2 text-center">
+                    <h3 id="hero-photo-caption" class="font-serif-editorial text-lg font-bold text-white">
+                      Marissa Elisabeth Ellin
+                    </h3>
+                    <p id="hero-photo-subcaption" class="text-xs text-[#A293BE] mt-0.5">
+                      Mahasiswi Sistem dan Teknologi Informasi
+                    </p>
+                    <p id="hero-handwritten-note" class="font-handwriting text-sm text-[#C084FC] mt-2 italic">
+                      Catatan dari meja belajar • Proses nyata di balik setiap baris karya
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about" class="py-20 md:py-28 border-b border-[#2B2144]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 lg:gap-12 items-start">
+            <!-- Left Narrative Column -->
+            <div class="lg:col-span-7 space-y-6">
+              <div>
+                <span id="about-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+                  Tentang Diri
+                </span>
+                <h2 id="about-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white leading-tight mt-2">
+                  Proses Nyata Seorang Mahasiswi.
+                </h2>
+                <p id="about-subtitle" class="text-xs md:text-sm font-semibold text-[#C084FC] uppercase tracking-wider mt-1">
+                  Bukan sekadar mengejar gelar, melainkan mengasah kepekaan memecahkan masalah.
+                </p>
+              </div>
+
+              <div class="space-y-4 text-xs md:text-sm text-[#D4CBE5] leading-relaxed">
+                <p id="about-p1">
+                  Saya adalah mahasiswi aktif Program Studi Sistem dan Teknologi Informasi yang percaya bahwa teknologi paling bernilai ketika berhasil menjembatani kebutuhan manusia yang nyata.
+                </p>
+                <p id="about-p2">
+                  Alih-alih menampilkan diri sebagai pakar yang serba tahu, saya memilih untuk jujur pada fase pembelajaran saya. Setiap tugas kuliah, eksperimen kode di akhir pekan, keterlibatan kepanitiaan kampus, dan sertifikasi terverifikasi yang saya raih adalah bukti komitmen saya untuk berkembang secara konsisten.
+                </p>
+                <p id="about-p3">
+                  Minat utama saya berpusat pada perancangan alur sistem informasi, penerapan agen kecerdasan buatan untuk efisiensi komputasi, pengembangan antarmuka web yang rapi, serta komunikasi publik yang membumi.
+                </p>
+              </div>
+
+              <!-- Human Commitment Note -->
+              <div class="p-4 sm:p-5 rounded-2xl bg-[#140F22] border border-[#2B2144] flex items-center gap-3.5">
+                <div class="w-10 h-10 rounded-xl bg-[#1D1432] text-[#C084FC] flex items-center justify-center shrink-0 text-base font-serif-editorial font-bold border border-[#3B2D5C]">
+                  ✨
+                </div>
+                <p class="text-xs text-[#D4CBE5] leading-relaxed">
+                  <strong class="text-white font-semibold">Komitmen Akademik:</strong> Mengasah fondasi logika sistem informasi, mendokumentasikan proses belajar secara terbuka, dan mengutamakan manfaat bagi sesama di setiap implementasi.
+                </p>
+              </div>
+            </div>
+
+            <!-- Right Column: Core Study Principles -->
+            <div class="lg:col-span-5 space-y-4">
+              <div class="paper-card p-6 md:p-7 rounded-3xl bg-[#181326] border border-[#2B2144]">
+                <div class="mb-5 pb-4 border-b border-[#2B2144]">
+                  <span class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-2">
+                    Prinsip Studi
+                  </span>
+                  <h3 id="about-principles-title" class="font-serif-editorial text-xl font-bold text-white mt-1">
+                    Pilar Pendekatan Belajar
+                  </h3>
+                  <p id="about-principles-subtitle" class="text-xs text-[#A293BE] mt-1">
+                    Nilai dan etos kerja yang melandasi setiap proyek serta eksplorasi akademis:
+                  </p>
+                </div>
+
+                <!-- Core Principles Cards Container -->
+                <div id="core-principles-container" class="space-y-3.5">
+                  <!-- Populated dynamically via main.js -->
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Creative Sticky Notes Board (Studio Scrapbook) -->
+          <div class="mt-16 pt-12 border-t border-[#2B2144]">
+            <div class="text-center max-w-xl mx-auto mb-8">
+              <span class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-2">
+                Sudut Kreatif Mahasiswi
+              </span>
+              <h3 id="sticky-notes-title" class="font-serif-editorial text-xl md:text-2xl font-bold text-white mt-1">
+                Catatan Tempel Meja Belajar
+              </h3>
+              <p id="sticky-notes-subtitle" class="text-xs text-[#A293BE] mt-1">
+                Pengingat harian & pesan reflektif di sudut monitor:
+              </p>
+            </div>
+
+            <div id="sticky-notes-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              <!-- Populated dynamically via main.js -->
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Learning Journey Section -->
+      <section id="journey" class="py-20 md:py-28 border-b border-[#2B2144] bg-[#120E1C]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-14">
+            <span id="journey-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Rencana & Alur
+            </span>
+            <h2 id="journey-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Jejak Perjalanan Pembelajaran
+            </h2>
+            <p id="journey-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Peta terstruktur bagaimana saya membangun kapabilitas dari waktu ke waktu.
+            </p>
+          </div>
+
+          <div id="journey-container" class="space-y-8 max-w-4xl">
+            <!-- Populated dynamically via main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="projects" class="py-20 md:py-28 border-b border-[#2B2144]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-10">
+            <div>
+              <span id="projects-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+                Karya & Portofolio
+              </span>
+              <h2 id="projects-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+                Proyek Terpilih & Studi Kasus
+              </h2>
+              <p id="projects-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1 max-w-xl">
+                Setiap proyek bukan hanya hasil akhir, melainkan dokumentasi dari proses berpikir, tantangan yang dihadapi, dan pelajaran berharga.
+              </p>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="w-full md:w-72">
+              <input
+                id="project-search-input"
+                type="text"
+                placeholder="Cari proyek..."
+                class="w-full px-4 py-2.5 text-xs bg-[#181326] border border-[#2B2144] rounded-xl focus:outline-none focus:border-[#C084FC] text-white placeholder:text-[#746590]"
+              />
+            </div>
+          </div>
+
+          <!-- Category Filter Pills -->
+          <div id="project-filter-pills" class="flex flex-wrap gap-2 mb-8">
+            <!-- Populated dynamically via main.js -->
+          </div>
+
+          <!-- Projects Grid -->
+          <div id="projects-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Populated dynamically via main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills Section -->
+      <section id="skills" class="py-20 md:py-28 border-b border-[#2B2144] bg-[#120E1C]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-12">
+            <span id="skills-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Keahlian & Toolkit
+            </span>
+            <h2 id="skills-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Keahlian yang Terus Diasah
+            </h2>
+            <p id="skills-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Pemetaan jujur atas kemampuan teknis, kreativitas digital, dan komunikasi yang terus saya kembangkan.
+            </p>
+          </div>
+
+          <!-- 4 Category Grid -->
+          <div id="skills-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Populated dynamically via main.js -->
+          </div>
+
+          <!-- Daily Software & Tools Badges -->
+          <div class="mt-14 p-6 md:p-8 paper-card rounded-2xl bg-[#181326] border border-[#2B2144]">
+            <h3 id="tools-title" class="font-serif-editorial text-lg font-bold text-white">
+              Alat & Perangkat Lunak Harian
+            </h3>
+            <p id="tools-subtitle" class="text-xs text-[#A293BE] mt-0.5 mb-4">
+              Perangkat lunak yang biasa saya gunakan untuk belajar dan berkarya:
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">Figma (UI/UX)</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">Visual Studio Code</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">Draw.io (ERD & DFD)</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">Canva (Visual Design)</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">CapCut (Video Documentation)</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">Git & GitHub</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">HTML5 Semantik</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">CSS Modern & Tailwind</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">JavaScript ES6+</span>
+              <span class="px-3.5 py-1.5 text-xs font-semibold bg-[#100D1B] border border-[#2B2144] rounded-lg text-[#D4CBE5] hover:border-[#C084FC]/50 transition-colors">Buku Catatan Fisik</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Certifications Section -->
+      <section id="certifications" class="py-20 md:py-28 border-b border-[#2B2144]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-10">
+            <span id="certs-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Kredensial & Bukti Resmi
+            </span>
+            <h2 id="certs-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Sertifikasi & Hasil Pembelajaran Terverifikasi
+            </h2>
+            <p id="certs-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Dokumentasi resmi atas materi yang telah saya pelajari secara terstruktur melalui institusi tepercaya.
+            </p>
+          </div>
+
+          <!-- Featured IBM Credential Highlight -->
+          <div id="cert-featured-container" class="mb-12">
+            <!-- Populated dynamically via main.js -->
+          </div>
+
+          <!-- Category Filters for Certs -->
+          <div id="cert-filter-pills" class="flex flex-wrap gap-2 mb-8">
+            <!-- Populated dynamically via main.js -->
+          </div>
+
+          <!-- Certifications Grid -->
+          <div id="certs-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Populated dynamically via main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Experience & Campus Involvement Section -->
+      <section id="experience" class="py-20 md:py-28 border-b border-[#2B2144] bg-[#120E1C]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-12">
+            <span id="experience-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Pengalaman Nyata
+            </span>
+            <h2 id="experience-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Kepanitiaan & Keterlibatan Kampus
+            </h2>
+            <p id="experience-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Ruang tempat saya menguji kesiapan mental, kerja sama tim, komunikasi publik, dan penyelesaian masalah di lapangan.
+            </p>
+          </div>
+
+          <div id="experience-container" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Populated dynamically via main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Currently Learning Section -->
+      <section id="learning" class="py-20 md:py-28 border-b border-[#2B2144]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-12">
+            <span id="learning-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Sedang Berjalan
+            </span>
+            <h2 id="learning-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Fokus Pembelajaran Saat Ini
+            </h2>
+            <p id="learning-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Topik-topik yang saat ini sedang saya dalami secara intensif di meja belajar:
+            </p>
+          </div>
+
+          <div id="learning-focus-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <!-- Populated dynamically via main.js -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Personal Reflections Section -->
+      <section id="reflections" class="py-20 md:py-28 border-b border-[#2B2144] bg-[#120E1C]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-12">
+            <span id="reflections-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Nilai & Sudut Pandang
+            </span>
+            <h2 id="reflections-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Refleksi Pribadi & Pelajaran Bermakna
+            </h2>
+            <p id="reflections-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Empat nilai yang saya pegang teguh sepanjang proses belajar dan berorganisasi:
+            </p>
+          </div>
+
+          <div id="reflections-container" class="grid grid-cols-1 sm:grid-cols-2 gap-8 mb-12">
+            <!-- Populated dynamically via main.js -->
+          </div>
+
+          <!-- Future Horizon Manifesto Box -->
+          <div class="p-8 md:p-10 paper-card rounded-3xl bg-[#181326] border border-[#2B2144] text-center max-w-3xl mx-auto">
+            <span class="text-xs font-mono font-bold text-[#C084FC] uppercase tracking-widest block mb-2">
+              STUDENT MANIFESTO
+            </span>
+            <h3 id="future-box-title" class="text-xl md:text-2xl font-serif-editorial font-bold text-white">
+              Masih Terus Belajar. Masih Terus Berkarya.
+            </h3>
+            <p id="future-box-desc" class="text-xs md:text-sm text-[#A293BE] mt-3 leading-relaxed max-w-xl mx-auto">
+              Saya tidak mengeklaim telah mengetahui segalanya — dan itu tidak apa-apa. Saya menikmati setiap proses belajar, eksplorasi teknologi, dan kesempatan kolaborasi yang membentuk saya menjadi pribadi yang lebih matang setiap harinya.
+            </p>
+            <div class="mt-6 inline-block px-5 py-2 rounded-full bg-[#100D1B] border border-[#2B2144] text-xs font-bold text-[#C084FC] font-mono tracking-wider">
+              <span id="future-box-motto">Belajar → Membangun → Menempa Diri → Tumbuh</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="py-20 md:py-28 border-b border-[#2B2144]">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="max-w-2xl mb-12">
+            <span id="contact-badge" class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30 mb-3">
+              Mari Terhubung
+            </span>
+            <h2 id="contact-title" class="text-2xl sm:text-3xl md:text-4xl font-serif-editorial font-bold text-white mt-2">
+              Mulai Percakapan & Kolaborasi
+            </h2>
+            <p id="contact-subtitle" class="text-xs md:text-sm text-[#A293BE] mt-1">
+              Saya selalu terbuka untuk berdiskusi seputar teknologi, sistem informasi, peluang proyek akademik, atau sekadar berbagi cerita belajar.
+            </p>
+          </div>
+
+          <!-- Direct WhatsApp Feature Banner in Velvet Purple -->
+          <div class="p-8 md:p-10 paper-card rounded-3xl bg-gradient-to-r from-[#181326] via-[#241B3B] to-[#181326] border border-[#C084FC]/30 mb-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-6 shadow-xl">
+            <div class="space-y-2 max-w-xl">
+              <span class="stamp-seal text-[#C084FC] bg-[#A855F7]/10 border-[#C084FC]/30">
+                Jalur Langsung Cepat
+              </span>
+              <h3 id="direct-wa-title" class="text-xl md:text-2xl font-serif-editorial font-bold text-white">
+                Kirim Pesan Langsung via WhatsApp
+              </h3>
+              <p id="direct-wa-desc" class="text-xs md:text-sm text-[#A293BE] leading-relaxed">
+                Kanal tercepat untuk menghubungi saya secara personal. Pesan pengantar otomatis telah disiapkan dengan rapi.
+              </p>
+            </div>
+
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 w-full md:w-auto">
+              <a
+                id="contact-whatsapp-btn"
+                href="https://wa.me/6281349772107?text=Halo%20Marissa%2C%20saya%20ingin%20"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="px-6 py-3.5 text-xs font-bold bg-gradient-to-r from-[#9333EA] to-[#7E22CE] hover:from-[#A855F7] hover:to-[#9333EA] text-white rounded-xl transition-all shadow-md shadow-purple-950/40 flex items-center justify-center gap-2 text-center"
+              >
+                <span id="contact-whatsapp-btn-text">Hubungi via WhatsApp Sekarang</span>
+                <span>↗</span>
+              </a>
+              <button
+                id="copy-email-btn"
+                class="px-5 py-3.5 text-xs font-bold bg-[#181326] hover:bg-[#211B34] text-white border border-[#2B2144] rounded-xl transition-all flex items-center justify-center gap-2"
+              >
+                <span id="copy-email-btn-text">Salin Alamat Email</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Email Copied Alert Feedback -->
+          <div id="copy-email-feedback" class="hidden mb-6 p-4 bg-[#10B981]/10 border border-[#10B981]/30 rounded-xl text-xs font-bold text-[#34D399] text-center">
+            ✓ Alamat email (marissaelisabeth26@gmail.com) berhasil disalin ke papan klip!
+          </div>
+
+          <!-- Official Channels Cards -->
+          <div>
+            <h4 id="contact-channels-title" class="text-xs font-bold uppercase tracking-wider text-[#A293BE] mb-4">
+              Kanal Jejaring Resmi
+            </h4>
+            <div id="contact-cards-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+              <!-- Populated dynamically via main.js -->
+            </div>
+          </div>
+
+          <!-- Closing Human Quote -->
+          <div class="mt-14 text-center">
+            <p id="contact-closing-note" class="font-serif-editorial italic text-base md:text-lg text-[#D4CBE5]">
+              “Karya yang baik bermula dari rasa ingin tahu yang jujur dan keberanian untuk mencoba.”
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Optimized Responsive Footer -->
+    <footer class="bg-[#09070E] text-[#A293BE] pt-14 pb-10 border-t border-[#2B2144]">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <!-- Main Footer Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-10 pb-10 border-b border-[#231A38]">
+          <!-- Brand & Bio (col-span-5) -->
+          <div class="lg:col-span-5 space-y-4">
+            <div class="flex items-center gap-3">
+              <div class="shrink-0 flex items-center justify-center" style="width:52px;height:42px;overflow:hidden;">
+                <img src="gambar/logo-me-transparent.png" alt="Logo Marissa Elisabeth Ellin" class="object-contain" style="width:52px;height:42px;max-width:52px;max-height:42px;" />
+              </div>
+              <div>
+                <span class="font-serif-editorial text-lg font-bold text-white block leading-tight">
+                  Marissa Elisabeth Ellin
+                </span>
+                <span class="text-[11px] text-[#8E7EA8] block font-mono">
+                  Sistem dan Teknologi Informasi
+                </span>
+              </div>
+            </div>
+
+            <p id="footer-bio" class="text-xs text-[#A293BE] max-w-sm leading-relaxed">
+              Portofolio kurasi personal Marissa Elisabeth Ellin — Mahasiswi Sistem dan Teknologi Informasi.
+            </p>
+
+            <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-[#140F22] border border-[#2B2144] text-[11px] text-[#D4CBE5]">
+              <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+              <span id="footer-status-badge">Terbuka untuk diskusi proyek & kolaborasi akademik</span>
+            </div>
+          </div>
+
+          <!-- Quick Navigation Links (col-span-2) -->
+          <div class="lg:col-span-2 space-y-3">
+            <h4 id="footer-nav-title" class="text-xs font-mono uppercase tracking-wider text-[#C084FC] font-semibold">
+              Navigasi Utama
+            </h4>
+            <ul class="space-y-2 text-xs text-[#D4CBE5]">
+              <li>
+                <a href="#about" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.about">Tentang Diri</a>
+              </li>
+              <li>
+                <a href="#projects" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.projects">Proyek & Karya</a>
+              </li>
+              <li>
+                <a href="#skills" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.skills">Keahlian & Alat</a>
+              </li>
+              <li>
+                <a href="#certifications" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.certifications">Sertifikasi</a>
+              </li>
+              <li>
+                <a href="#experience" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.experience">Pengalaman</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Exploration Deep Dives (col-span-2) -->
+          <div class="lg:col-span-2 space-y-3">
+            <h4 id="footer-explore-title" class="text-xs font-mono uppercase tracking-wider text-[#C084FC] font-semibold">
+              Eksplorasi
+            </h4>
+            <ul class="space-y-2 text-xs text-[#D4CBE5]">
+              <li>
+                <a href="#journey" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.journey">Perjalanan Belajar</a>
+              </li>
+              <li>
+                <a href="#learning" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.learning">Fokus Pembelajaran</a>
+              </li>
+              <li>
+                <a href="#reflections" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.reflections">Refleksi Studi</a>
+              </li>
+              <li>
+                <a href="#contact" class="hover:text-[#C084FC] transition-colors inline-block py-0.5" data-i18n="nav.contact">Kontak Langsung</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Connect & Language (col-span-3) -->
+          <div class="lg:col-span-3 space-y-3">
+            <h4 id="footer-connect-title" class="text-xs font-mono uppercase tracking-wider text-[#C084FC] font-semibold">
+              Koneksi & Bahasa
+            </h4>
+            <div class="space-y-2 text-xs">
+              <a
+                href="https://wa.me/6281349772107"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-2 text-xs text-[#D4CBE5] hover:text-white transition-colors py-0.5"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C084FC]"></span>
+                <span>WhatsApp Diskusi</span>
+                <span class="text-[10px] text-[#8E7EA8]">↗</span>
+              </a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=marissaelisabeth26@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="flex items-center gap-2 text-xs text-[#D4CBE5] hover:text-white transition-colors py-0.5"
+              >
+                <span class="w-1.5 h-1.5 rounded-full bg-[#C084FC]"></span>
+                <span class="truncate">marissaelisabeth26@gmail.com</span>
+              </a>
+            </div>
+
+            <!-- Language Switcher in Footer -->
+            <div class="pt-2">
+              <div class="inline-flex items-center p-0.5 bg-[#140F22] border border-[#2B2144] rounded-lg text-[11px] font-mono shadow-xs">
+                <button class="btn-lang-id lang-toggle-btn px-2.5 py-1 text-[11px] font-semibold rounded-md active">
+                  ID (Bahasa)
+                </button>
+                <button class="btn-lang-en lang-toggle-btn px-2.5 py-1 text-[11px] font-semibold rounded-md">
+                  EN (English)
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sub-Footer Utility Bar -->
+        <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#746590]">
+          <p id="footer-copyright">
+            © 2026 Marissa Elisabeth Ellin. Dibangun dengan HTML, Tailwind CSS, & JavaScript murni.
+          </p>
+          <button
+            id="footer-scroll-top-btn"
+            type="button"
+            class="hover:text-[#C084FC] transition-colors flex items-center gap-1.5 cursor-pointer group"
+          >
+            <span id="footer-back-to-top">Kembali ke Atas</span>
+            <span class="transform group-hover:-translate-y-0.5 transition-transform">↑</span>
+          </button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Floating Back to Top Arrow Button -->
+    <button
+      id="back-to-top-btn"
+      type="button"
+      aria-label="Kembali ke atas"
+      class="fixed bottom-6 right-6 z-40 w-11 h-11 rounded-full bg-[#181326]/90 hover:bg-[#7E22CE] text-[#C084FC] hover:text-white border border-[#3B2D5C] hover:border-[#C084FC] shadow-xl shadow-black/60 backdrop-blur-md flex items-center justify-center transition-all duration-300 transform opacity-0 pointer-events-none translate-y-4 hover:scale-105 active:scale-95 group cursor-pointer"
+    >
+      <svg
+        class="w-5 h-5 transition-transform duration-200 group-hover:-translate-y-0.5"
+        fill="none"
+        stroke="currentColor"
+        viewBox="0 0 24 24"
+      >
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M5 10l7-7m0 0l7 7m-7-7v18" />
+      </svg>
+    </button>
+
+    <!-- Project Case Study Modal -->
+    <div
+      id="project-modal"
+      class="modal-backdrop fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 sm:p-6"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div
+        id="project-modal-content"
+        class="modal-content w-full max-w-3xl bg-[#181326] border border-[#3B2D5C] rounded-3xl overflow-hidden shadow-2xl"
+      >
+        <!-- Populated dynamically via main.js -->
+      </div>
+    </div>
+
+    <!-- Certificate Detail Modal -->
+    <div
+      id="cert-modal"
+      class="modal-backdrop fixed inset-0 bg-black/80 backdrop-blur-sm z-50 flex items-center justify-center p-4 sm:p-6"
+      role="dialog"
+      aria-modal="true"
+    >
+      <div
+        id="cert-modal-content"
+        class="modal-content w-full max-w-2xl bg-[#181326] border border-[#3B2D5C] rounded-3xl overflow-hidden shadow-2xl"
+      >
+        <!-- Populated dynamically via main.js -->
+      </div>
+    </div>
+
+    <!-- Main JavaScript Controller -->
+  </body>
+</html>
